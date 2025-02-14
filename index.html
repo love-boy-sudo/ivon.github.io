@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day for My Love</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styling for the Slideshow */
+    #album .slideshow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    /* Styling each image */
+    #album .slideshow img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+      max-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* For smaller screens, adjust the image size further */
+    @media (max-width: 600px) {
+      #album .slideshow img {
+        max-width: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="intro">
+      <h1>Happy Valentine Dear</h1>
+    </div>
+  </header>
+
+  <!-- Nature Photo Gallery Section -->
+  <section id="gallery">
+    <div class="slideshow">
+      <img src="images/t-1.jpg" alt="">
+      <img src="images/t-2.jpg" alt="">
+      <img src="images/t-3.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Sweet Poem Section -->
+  <section id="poem">
+    <div class="content">
+      <p>I’ve been thinking a lot lately, and I just wanted to be honest with you. I really enjoy our time together, and I feel a connection between us that’s more than just friendship. I’d love to see where things could go if you’re open to it. Just thought I should let you know how I feel. 😊</p>
+    </div>
+  </section>
+
+  <!-- Song Section -->
+  <section id="song">
+    <div class="content">
+      <h2>i have just guess this may be you favorite song</h2>
+      <audio controls>
+        <source src="music/tunapendana.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="flower-slideshow">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-2.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Personalized Love Letter Section -->
+  <section id="letter">
+    <div class="content">
+      <h2>Hey Ivon,</h2>
+      <p>I hope you’re having a wonderful day! I just wanted to take a moment to share something that’s been on my mind. Although we've only met once, there’s something about you that’s left a lasting impression on me. And I couldn't let today go by without letting you know how special you are.</p>
+      <p>From the moment we first met, I felt an instant connection. There’s this effortless warmth that surrounds you, and you have this incredible way of making everyone around you feel comfortable and at ease. Honestly, I was a little nervous at first—meeting someone new always brings that uncertainty—but with you, it felt like things just clicked. I love how easy it is to talk to you, and the way our conversations flow so naturally, as if we’ve known each other much longer. It's one of the things that really stands out to me.</p>
+      <p>You have such a unique charm, a blend of confidence and kindness that’s hard to come by. Your smile is contagious, and the energy you bring into a room is something I can't help but appreciate. It’s clear that you have a genuine spirit, and that’s something I find really captivating. It’s rare to meet someone who not only captures your attention but also makes you feel so comfortable being yourself. It’s refreshing, and I want to see more of that.</p>
+      <p>I also appreciate how we’ve been able to chat more often since we first met. It’s always such a highlight of my day to hear from you. Your messages bring so much joy, and I’ve really enjoyed getting to know you better, even if it’s only been through text for now. There’s a certain excitement that comes with looking forward to our conversations, and I’ve found myself smiling a lot more recently, just thinking about the next time we’ll talk.</p>
+      <p>I know Valentine’s Day can sometimes feel like just another date on the calendar, but for me, it feels like the perfect opportunity to let you know how much I appreciate our connection. I hope that one day we can spend more time together, and who knows, maybe even make some new memories along the way. There’s something about you that makes me feel like we’re only just scratching the surface of something great.</p>
+      <p>So, on this Valentine’s Day, I just wanted to say thank you. Thank you for being so amazing, for making our conversations meaningful, and for just being you. I’m excited to see where things could go and hope we can keep getting to know each other more.</p>
+      <p>Wishing you a day full of love, happiness, and everything that makes you smile!</p>
+      <p>Take care,<br>Timothy</p>
+    </div>
+  </section>
+
+  <!-- Closing Section -->
+  <section id="closing">
+    <div class="content">
+      <p>Thank you for you time Happy Valentine’s Day!</p>
+      <button onclick="window.location.href='album.html'">Let's Create More Memories Together</button>
+    </div>
+  </section>
+
+</body>
+</html>
