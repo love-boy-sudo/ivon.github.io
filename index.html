@@ -1,104 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine's Day for My Love</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    /* General Styling for the Slideshow */
-    #album .slideshow {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 20px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Latifaa!</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fef6e4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-    /* Styling each image */
-    #album .slideshow img {
-      max-width: 100%;
-      height: auto;
-      width: 100%;
-      max-width: 250px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+        /* Header Styles */
+        .header {
+            background-color: #ff85b3;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
 
-    /* For smaller screens, adjust the image size further */
-    @media (max-width: 600px) {
-      #album .slideshow img {
-        max-width: 180px;
-      }
-    }
-  </style>
+        .header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            text-align: center;
+            background-image: url('images/your-image-link.jpg'); /* Make sure to replace this with the actual image URL */
+            background-size: cover;
+            background-position: center;
+            padding: 80px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            font-family: 'Georgia', serif;
+        }
+
+        .hero p {
+            font-size: 24px;
+            font-style: italic;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Audio Section Styles */
+        .audio-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .audio-container audio {
+            width: 60%;
+            border-radius: 10px;
+            border: none;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 50%;
+            border: 5px solid #ff6347;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Message Section Styles */
+        .message {
+            padding: 50px;
+            text-align: center;
+            font-size: 24px;
+            background-color: white;
+            margin: 50px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .message h2 {
+            font-size: 32px;
+            color: #ff6347;
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Footer Styles */
+        .footer {
+            text-align: center;
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <div class="intro">
-      <h1>Happy Valentine Dear</h1>
+    <div class="header">
+        <h1>Happy Birthday, Latifaa!</h1>
+        <p>You're the most amazing person in my life.</p>
     </div>
-  </header>
 
-  <!-- Nature Photo Gallery Section -->
-  <section id="gallery">
-    <div class="slideshow">
-      <img src="images/t-1.jpg" alt="">
-      <img src="images/t-3.jpg" alt="">
+    <div class="hero">
+        <h2>To the Love of My Life</h2>
+        <p>Every day with you is a special gift.</p>
+        <p>May be this is the only thing I can do because of distance.</p>
     </div>
-  </section>
+      
+    <div class="audio-container">
+        <audio controls>
+            <source src="me.mp4.m4a" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    
+    <div class="gallery">
+        <img src="image1.jpg" alt="Memory 1">
+        <img src="image2.jpg" alt="Memory 2">
+        <img src="image3.jpg" alt="Memory 3">
+        <img src="image4.jpg" alt="Memory 4">
+        <img src="image6.jpg" alt="Memory 6">
+    </div>
 
-  <!-- Sweet Poem Section -->
-  <section id="poem">
-    <div class="content">
-      <p>I’ve been thinking a lot lately, and I just wanted to be honest with you. I really enjoy our time together, and I feel a connection between us that’s more than just friendship. I’d love to see where things could go if you’re open to it. Just thought I should let you know how I feel. 😊</p>
+    <div class="message">
+        <h2>A Special Message Just for You</h2>
+        <p>My Dearest Latifa,</p>
+        <p>Happy Birthday, my love! Today marks not only the celebration of your life but also the incredible journey we’ve shared together. As I reflect on the moments we’ve experienced, I’m filled with such overwhelming gratitude and happiness. I can’t help but smile thinking about how blessed I am to have you in my life.</p>
+        <p>I want to take a moment to remind you of just how extraordinary you are. You’re the kind of person who lights up every room you walk into, who makes everyone around you feel seen and special, and who spreads warmth, kindness, and love effortlessly. Your smile is like the sun breaking through the clouds, and your laughter is the sweetest melody I’ve ever heard. Every day spent with you feels like a gift, a beautiful blessing I treasure more than words could ever express.</p>
+        <p>You are not just my girlfriend; you are my confidant, my best friend, my greatest support, and the one who makes my heart skip a beat with just a glance. I am constantly in awe of your strength, your intelligence, and the passion you put into everything you do. Whether it’s chasing your dreams, taking care of those you love, or simply being your amazing self, you inspire me in ways I could never fully explain. You show me, every single day, what it means to love and be loved.</p>
+        <p>I’ve come to realize that the love I have for you is not just something I feel in my heart; it’s something I see in everything we do together. Whether we’re out on adventures or just sitting quietly, enjoying each other’s presence, those moments are what I cherish most. You make the ordinary extraordinary just by being there. Your presence fills every space with joy, and your energy lifts me up, even on the toughest days.</p>
+        <p>You have an incredible way of making everything feel more beautiful, and I’m so grateful for the way you’ve transformed my life. You’ve taught me how to love more deeply, how to listen with more empathy, and how to appreciate every moment we have. There is no one in this world who could replace you. You’re my one in a million, and I feel so lucky to have found you.</p>
+        <p>I love how we support each other in everything we do. You never hesitate to encourage me to reach for the stars, and you always believe in me, even when I doubt myself. Your faith in me is something I hold close, and it pushes me to be a better person every single day. And when life gets challenging, it’s your love and encouragement that remind me that I’m never alone. We face the world together, side by side, and I wouldn’t want it any other way.</p>
+        <p>I also want to take a moment to thank you for the little things. For the way you hold my hand, the way you look at me when we share a private joke, the way you give me a hug after a long day, and the way you always know exactly what I need to hear. It’s the small gestures, the shared glances, the quiet moments of connection that mean everything to me. You make even the simplest moments feel significant, and that’s something I will forever be grateful for.</p>
+        <p>On your special day, I want you to know just how loved you are—by me, and by everyone who is fortunate enough to know you. Your kindness, your generosity, and your compassion make this world a better place. You have such a beautiful soul, and I feel incredibly blessed to share my life with you. Watching you grow, seeing you pursue your dreams, and supporting you in all that you do brings me so much joy.</p>
+        <p>Today, I celebrate you—not just the amazing partner you are, but the incredible person you’ve become. I’m excited for everything the future holds for us, because I know that no matter where life takes us, we’ll be there for each other. With you by my side, there’s nothing we can’t conquer. We’ve already built something so beautiful together, and I know that we have so much more to look forward to.</p>
+        <p>As you blow out your candles and make a wish today, I want you to know that my only wish is for you to always be happy, to always feel loved, and to always know how incredibly special you are. You deserve all the happiness and success this world has to offer, and I’ll do everything in my power to ensure that you get to experience that every day.</p>
+        <p>So, my love, on this special day, know that I’m thinking of you with so much love and admiration. Thank you for being the most incredible person I know. I look forward to spending many more birthdays with you, making countless memories, and growing stronger together. You are everything to me, and I’ll always be grateful for the gift of your love.</p>
+        <p>Happy Birthday, my love. May this year bring you everything your heart desires, and may it be filled with joy, laughter, and all the beautiful things you deserve. Here’s to celebrating you today and every day. I love you more than words can express, and I can’t wait to continue this journey with you.</p>
+        <p>With all my love,<br>kibet</p>
     </div>
-  </section>
 
-  <!-- Song Section -->
-  <section id="song">
-    <div class="content">
-      <h2>i have just guess this may be you favorite song</h2>
-      <audio controls>
-        <source src="music/tunapendana.mp3" type="audio/mp3">
-      </audio>
+    <div class="footer">
+        <p>Love you to the moon and back!</p>
+        <p>Made with ❤️ by your one and only</p>
+        <p>Enjoy your day to the fullest, goodbye.</p>
+        <p><a href="#">Back to Top</a></p>
     </div>
-    <div class="flower-slideshow">
-      <img src="images/t-3.jpg" alt="">
-      <img src="images/t-1.jpg" alt="">
-      <img src="images/t-3.jpg" alt="">
-      <img src="images/t-2.jpg" alt="">
-      <img src="images/t-1.jpg" alt="">
-      <img src="images/t-3.jpg" alt="">
-      <img src="images/t-1.jpg" alt="">
-    </div>
-  </section>
-
-  <!-- Personalized Love Letter Section -->
-  <section id="letter">
-    <div class="content">
-      <h2>Hey Ivon,</h2>
-      <p>I hope you’re having a wonderful day! I just wanted to take a moment to share something that’s been on my mind. Although we've only met once, there’s something about you that’s left a lasting impression on me. And I couldn't let today go by without letting you know how special you are.</p>
-      <p>From the moment we first met, I felt an instant connection. There’s this effortless warmth that surrounds you, and you have this incredible way of making everyone around you feel comfortable and at ease. Honestly, I was a little nervous at first—meeting someone new always brings that uncertainty—but with you, it felt like things just clicked. I love how easy it is to talk to you, and the way our conversations flow so naturally, as if we’ve known each other much longer. It's one of the things that really stands out to me.</p>
-      <p>You have such a unique charm, a blend of confidence and kindness that’s hard to come by. Your smile is contagious, and the energy you bring into a room is something I can't help but appreciate. It’s clear that you have a genuine spirit, and that’s something I find really captivating. It’s rare to meet someone who not only captures your attention but also makes you feel so comfortable being yourself. It’s refreshing, and I want to see more of that.</p>
-      <p>I also appreciate how we’ve been able to chat more often since we first met. It’s always such a highlight of my day to hear from you. Your messages bring so much joy, and I’ve really enjoyed getting to know you better, even if it’s only been through text for now. There’s a certain excitement that comes with looking forward to our conversations, and I’ve found myself smiling a lot more recently, just thinking about the next time we’ll talk.</p>
-      <p>I know Valentine’s Day can sometimes feel like just another date on the calendar, but for me, it feels like the perfect opportunity to let you know how much I appreciate our connection. I hope that one day we can spend more time together, and who knows, maybe even make some new memories along the way. There’s something about you that makes me feel like we’re only just scratching the surface of something great.</p>
-      <p>So, on this Valentine’s Day, I just wanted to say thank you. Thank you for being so amazing, for making our conversations meaningful, and for just being you. I’m excited to see where things could go and hope we can keep getting to know each other more.</p>
-      <p>Wishing you a day full of love, happiness, and everything that makes you smile!</p>
-      <p>Take care,<br>Timothy</p>
-    </div>
-  </section>
-
-  <!-- Closing Section -->
-  <section id="closing">
-    <div class="content">
-      <p>Thank you for you time Happy Valentine’s Day!</p>
-      <button onclick="window.location.href='album.html'">Let's Create More Memories Together</button>
-    </div>
-  </section>
 
 </body>
 </html>
